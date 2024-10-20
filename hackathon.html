@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja" style="scroll-padding-top:50px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./logo1.png" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-bold" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-2">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#hero">ホーム</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#feature">特徴</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#showcases">詳細</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#benefits">メリット</a></li>                  
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">参加する人の声</a></li>                 
+                    <li class="nav-item"><a class="nav-link" href="#price">プラン</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                </ul>
+                <a class="btn btn-dark btn-sm text-white" href="#">無料で始める</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="bg-info py-5" id="hero">
+        <div class="container overflow-hidden">
+            <div class="row flex-lg-row-reverse align-items-center">
+                <div class="col-lg-6">
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="./teach.mp4" type="video/mp4">
+                        お使いのブラウザは動画タグに対応していません。
+                    </video>
+                </div>
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="text-white display-4 fw-bold mb-4" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                        エンジニアとつながって、ITスキルと新しい出会いを手に入れよう
+                    </h1>
+                    <p class="lead text-white mb-4" style="font-style: italic;">
+                        学びながら、共通の興味を持つエンジニアとの出会いが広がります
+                    </p>
+                    <a href="#" class="btn btn-light btn-lg" style="border-radius: 30px;">今すぐ参加する</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FEATURE -->
+    <section class="bg-light py-5" id="feature">
+        <div class="container overflow-hidden">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="icon-container mb-3">
+                        <i class="bi bi-people text-primary fs-1"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark">学びと出会いの両方をサポート</h5>
+                    <p class="text-secondary">ITスキルを身につけるだけでなく、共通の興味を持つパートナーを見つける機会も提供します。</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="icon-container mb-3">
+                        <i class="bi bi-balloon-heart text-danger fs-1"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark">相性の良いパートナーとのマッチング</h5>
+                    <p class="text-secondary">学びたいスキルと共に、趣味や価値観が合うエンジニアとつながります。</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="icon-container mb-3">
+                        <i class="bi bi-pc-display-horizontal text-warning fs-1"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark">あなたのペースで進める</h5>
+                    <p class="text-secondary">忙しい日常でも、学びと出会いを自分のペースで楽しむことができます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SHOWCASES -->
+    <section class="bg-light py-5" id="showcases">
+        <div class="container overflow-hidden">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 order-lg-1" data-aos="fade-up">
+                    <img class="img-fluid" src="./f1.png">
+                </div>
+                <div class="col-lg-6 order-lg-2">
+                    <span class="display-3 text-primary">01</span>
+                    <h3 class="font-weight-bold text-dark">プロフィール作成とマッチング</h3>
+                    <p class="text-muted">
+                        女性ユーザーは、学びたいITスキルや興味のある分野（プログラミング、データ分析など）を選択し、学習目標や趣味・価値観を含むプロフィールを作成します。男性エンジニアは、自分の得意なスキルセットや指導可能な内容を登録。双方のプロフィールと興味に基づいて、最適なペアを自動マッチングします。
+                    </p>
+                </div>
+            </div>
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-up">
+                    <img class="img-fluid" src="./f2.png">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <span class="display-3 text-primary">02</span>
+                    <h3 class="font-weight-bold text-dark">プログラミングレッスンとコミュニケーション</h3>
+                    <p class="text-muted">
+                        マッチングが成立すると、オンラインでのプログラミングレッスンが開始されます。エンジニアは女性に対してプログラミングの基礎や実践的なスキルを教えつつ、コミュニケーションが進みます。ビデオ通話やチャットツールを通じて柔軟な学習環境を提供し、学びの過程で互いの趣味や価値観を共有する自然な交流が促進され、信頼関係が構築されます。
+                    </p>
+                </div>
+            </div>
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 order-lg-1" data-aos="fade-up">
+                    <img class="img-fluid" src="./f3.png">
+                </div>
+                <div class="col-lg-6 order-lg-2">
+                    <span class="display-3 text-primary">03</span>
+                    <h3 class="font-weight-bold text-dark">新たな出会いと次のステップ</h3>
+                    <p class="text-muted">
+                        プログラミングスキルの向上と共に、学習者とエンジニアとの関係が深まり、共通の興味を持った仲間や潜在的な恋愛パートナーとしてのつながりが形成されます。レッスン終了後も互いのITスキルやプロジェクトを通じた成長が続く一方で、希望者にはさらなる個別サポートやコミュニティへの参加を促進します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS -->
+<section class="bg-info py-5" id="benefits">
+    <div class="container overflow-hidden text-center">
+        <h2 class="text-white display-4 fw-bold mb-4" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);">参加することで得られるメリット</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-0">
+                    <div class="icon-container mb-3"> 
+                        <i class="bi bi-lightbulb text-warning fs-1"></i> 
+                    </div>
+                    <h5 class="fw-bold text-white">スキルアップ</h5>
+                    <p class="text-white">専門のエンジニアからの直接指導で、実践的なITスキルを身につけることができます。</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-0">
+                    <div class="icon-container mb-3"> 
+                        <i class="bi bi-heart text-danger fs-1"></i> 
+                    </div>
+                    <h5 class="fw-bold text-white">新たな出会い</h5>
+                    <p class="text-white">共通の興味を持つ仲間とつながり、友達や恋人との新たな出会いの場を提供します。</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-0">
+                    <div class="icon-container mb-3"> 
+                        <i class="bi bi-clock text-success fs-1"></i> 
+                    </div>
+                    <h5 class="fw-bold text-white">柔軟な学習環境</h5>
+                    <p class="text-white">自分のペースで進められるため、忙しい生活の中でも無理なく参加できます。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- TESTIMONIALS -->
+<section class="bg-light py-5" id="testimonials">
+    <div class="container overflow-hidden text-center">
+        <h2 class="text-dark display-4 fw-bold mb-4" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);">参加者の声</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <blockquote class="blockquote text-secondary">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <p class="mb-0">このプログラムに参加して、プログラミングスキルが大幅に向上しました！しかも、素敵な方とも出会えました。</p>
+                    </div>
+                    <footer class="blockquote-footer text-dark" style="font-size: 0.6rem;">佐藤花子さん</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4 mb-4">
+                <blockquote class="blockquote text-secondary">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <p class="mb-0">エンジニアの方と学ぶことで、楽しくスキルを習得できました。出会いもあり、充実した時間でした。</p>
+                    </div>
+                    <footer class="blockquote-footer text-dark" style="font-size: 0.6rem;">鈴木一郎さん</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4 mb-4">
+                <blockquote class="blockquote text-secondary">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <p class="mb-0">フレンドリーな環境で、気軽に学ぶことができました。新しい仲間もできて嬉しいです！</p>
+                    </div>
+                    <footer class="blockquote-footer text-dark" style="font-size: 0.6rem;">田中美咲さん</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- PRICE -->
+    <section class="bg-light py-5" id="price">
+        <div class="container overflow-hidden">
+            <div class="row text-center">
+                <h3 class="mb-4">プランを比較</h3>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header p-3">
+                            <h4 class="my-0 fw-normal">ベーシックプラン</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title fs-1"><span class="h4">¥</span>0<span
+                                    class="h4 text-secondary fw-light">
+                                    /月</span></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="text-success"></i>・プロフィール作成</li>
+                                <li><i class="text-success"></i>・基本的なITスキル学習コンテンツへのアクセス</li>
+                                <li><i class="text-success"></i>・テキストベースのエンジニアとのマッチング1回</li>
+                                <li><i class="text-success"></i>・限定イベントの通知受け取り</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">すぐに試す</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 shadow-sm border-dark">
+                        <div class="card-header py-3 border-dark bg-primary">
+                            <h4 class="my-0 fw-normal ">スタンダードプラン</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title fs-1"><span class="h4">¥</span>5000<span
+                                    class="h4 text-secondary fw-light">
+                                    /月（今だけ特別！）</span></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="text-success"></i>・自動マッチングとプロフィール作成サポート</li>
+                                <li><i class="text-success"></i>・ITスキル学習コンテンツの無制限アクセス</li>
+                                <li><i class="text-success"></i>・ビデオ通話によるエンジニアとのマッチング（3回まで）</li>
+                                <li><i class="text-success"></i>・プログラミングやITスキルに関する学習サポート</li>
+                                <li><i class="text-success"></i>・初回デートに向けたアドバイスやガイド提供</li>
+                                <li><i class="text-success"></i>・コミュニティへの参加</li>
+
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">登録・ログイン</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">プレミアムプラン</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title fs-1"><span class="h4">¥</span>10,000〜<span
+                                    class="h4 text-secondary fw-light"> /月</span>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="text-success"></i>・優先マッチングとプロフィールの目立つ表示</li>
+                                <li><i class="text-success"></i>・ITスキル学習コンテンツの無制限アクセス</li>
+                                <li><i class="text-success"></i>・無制限のビデオ通話とチャットでのエンジニアとのマッチング</li>
+                                <li><i class="text-success"></i>・1対1のデートコーチングやアドバイザーによる個別サポート</li>
+                                <li><i class="text-success"></i>・専用イベントやセミナーへの優先参加</li>
+                                <li><i class="text-success"></i>・特別プロジェクトやスキル向上の個別カウンセリング</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">登録・ログイン</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ -->
+    <section class="bg-light py-5" id="faq">
+        <div class="container overflow-hidden">
+            <div class="row text-center">
+                <h3 class="mb-4">よくある質問</h3>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-3">
+                    <img class="img-fluid"
+                        src="./qa.png">
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion" id="accordionFAQ">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    <p>Q. どのようにしてエンジニアとマッチングされるのですか？</p>
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                                data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    A. マッチングは、プロフィールに入力された学びたいスキルや興味、趣味、価値観をもとに自動で行われます。相性の良いエンジニアとつながるため、スキル学習と自然な交流が期待できます。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    <p>Q. 参加するために特別な機器やソフトウェアが必要ですか？</p>
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    A. 基本的に、インターネットに接続できるPCやスマートフォンがあれば参加可能です。ビデオ通話やチャットツールを使用しますが、特別なソフトウェアのインストールは不要です。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    <p>Q. マッチング後にエンジニアと合わなかった場合、再度マッチングできますか？</p>
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    A. はい、万が一相性が合わなかった場合は、再度マッチングをリクエストすることができます。お客様が満足いく学習と出会いを得られるよう、柔軟に対応します。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <!-- FOOTER -->
+    <footer class="py-3 bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col text-end"><a href="#" class="text-decoration-none text-light"><i
+                            class="bi bi-chevron-up"></i> Back to top</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
